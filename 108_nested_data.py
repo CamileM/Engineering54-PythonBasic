@@ -19,3 +19,16 @@ for keys in nested_dictionary:
     print(data_nested['name'])
     print(data_nested['address_of_rent'])
     time.sleep(1)
+
+nest_list = [[1, 2, 3], [4, 5, 6]]
+print(nest_list[0])
+print(nest_list[1])
+print(nest_list[1][0])
+
+for data in nest_list:
+    print(data)
+    breakpoint()
+    for num in data:
+        print(num * 20)
+
+
