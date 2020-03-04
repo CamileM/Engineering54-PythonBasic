@@ -15,7 +15,6 @@ count = 10
 
 while count != 0: # TRUE
     user_input = int(input('Enter A Number\n'))
-    print(count)
     print(' ')
     if user_input != magic_number:
         print('Sorry Pal :( but that is not the Magic Number. Try Again!')
@@ -31,6 +30,7 @@ while count != 0: # TRUE
 
 #   magic_number = 10
 #   count = 5
+
 #   user_guess = input('What is your guess? \n')
 #   print('Your response was correct', int(user_guess) == magic_number)
 
