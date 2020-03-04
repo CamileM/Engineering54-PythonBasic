@@ -11,22 +11,26 @@
 # Assign number to a variable called magic_number - Camile's Method
 magic_number = 26
 user_input = int
-COUNT = 10
+count = 10
 
-while COUNT != 0:
+while count != 0: # TRUE
     user_input = int(input('Enter A Number\n'))
+    print(count)
+    print(' ')
     if user_input != magic_number:
-        print(' ')
         print('Sorry Pal :( but that is not the Magic Number. Try Again!')
-        print(' ')
         print('CLUE: Camile was Born on the _ _ th September')
-        COUNT = COUNT - 1
+        count = count - 1
         continue
     else:
         print('CONGRATULATIONS!!!, You Got The Magic Number :)')
         print('Camile was Born on the 26th September')
         break
 
-# Felipe's Method
+# Felipe's Method with if statement:
 
+#   magic_number = 10
+#   count = 5
+#   user_guess = input('What is your guess? \n')
+#   print('Your response was correct', int(user_guess) == magic_number)
 
