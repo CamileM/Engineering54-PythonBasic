@@ -23,7 +23,7 @@ while numb != 'exit':
     if numb == 'exit':
         break
 
-    elif numb % 3 and numb % 5 == 0:
+    elif (numb % 3 == 0) and (numb % 5 == 0):
         print('Bizzuu')
 
     elif numb % 3 == 0:
