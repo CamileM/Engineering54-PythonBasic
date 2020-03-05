@@ -6,8 +6,7 @@
 
 # As a user I should be able to keep giving the program different numbers and it
 #
-# will calculate appropriately until you use the key word: 'penpinapplespen'
-
+# will calculate appropriately until you use the key word: 'pineapple'
 
 # write a program that take a number
 # prints back each individual number, but
@@ -15,24 +14,31 @@
     # if a multiple of 5 it return zzuu
     # if a multiple of 3 and 5 it return bizzzzuu
 
+import time
+
 numb = ''
 
-while numb != 'exit':
+while numb != 'pineapple':
 
     numb = int(input('Please enter a number: '))
-    if numb == 'exit':
-        break
 
-    elif (numb % 3 == 0) and (numb % 5 == 0):
-        print('Bizzuu')
+    for numb in range(1, 101):
+        time.sleep(1)
 
-    elif numb % 3 == 0:
-        print('Bizz')
+        if numb == 'pineapple':
+            break
 
-    elif numb % 5 == 0:
-        print('Zzuu')
+        elif (numb % 3 == 0) and (numb % 5 == 0):
+            print('Bizzuu')
 
+        elif numb % 3 == 0:
+            print('Bizz')
 
+        elif numb % 5 == 0:
+            print('Zzuu')
+
+        else:
+            print(numb)
 
 
 
