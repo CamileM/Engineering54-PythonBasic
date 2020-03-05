@@ -19,20 +19,22 @@ numb = ''
 
 while numb != 'exit':
 
-    numb = input('Please enter a number: ')
+    numb = int(input('Please enter a number: '))
     if numb == 'exit':
         break
 
-    elif (int(numb) % 3 and int(numb) % 5) == 0:
+    elif numb % 3 and numb % 5 == 0:
         print('Bizzuu')
 
-    elif int(numb) % 3 == 0:
+    elif numb % 3 == 0:
         print('Bizz')
 
-    elif int(numb) % 5 == 0:
+    elif numb % 5 == 0:
         print('Zzuu')
-    else:
-        print()
+
+
+
+
 
 
 

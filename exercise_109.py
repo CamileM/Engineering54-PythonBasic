@@ -1,5 +1,5 @@
 
-# - You can vote and drivre
+# - You can vote and driversß
 # - You can vote
 # - You can driver
 # - you can't legally drink but your mates/uncles might have your back (bigger 16)
@@ -8,8 +8,10 @@
 
  #  as a user I should be able to keep being prompted for input until I say 'exit'
 
-age = 21 # Change age too see the different output
+age = int(input('How old are you? \n')) # Change age too see the different output
 driver_licence = True # Change the boolean statement to either True or False
+
+# while
 
 if age >= 19 and driver_licence:
     print('You are old enough to drive and vote')
